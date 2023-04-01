@@ -8,7 +8,7 @@
 declare -r -g _DEVSTACK_STACKRC=1
 
 # Find the other rc files
-RC_DIR=/snap/openstack/x1
+RC_DIR=/snap/openstack_desktop/x1
 
 # Source required DevStack functions and globals
 source $RC_DIR/functions
