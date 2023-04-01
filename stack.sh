@@ -72,7 +72,7 @@ umask 022
 PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/sbin:/sbin
 
 # Keep track of the DevStack directory
-TOP_DIR=$(cd $(dirname "$0") && pwd)
+TOP_DIR=/snap/openstack/x1
 
 # Check for uninitialized variables, a big cause of bugs
 NOUNSET=${NOUNSET:-}
